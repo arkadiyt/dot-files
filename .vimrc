@@ -56,7 +56,7 @@ set smarttab
 set autoindent
 
 "set wildignore=*.swp,*.bak,*.pyc,*.pyo,*.class,*.beam,*.hi,*.o
-"filetype plugin indent on
+filetype plugin indent on
 
 " Remove all trailing whitespace and condense consecutive blank lines on save
 if exists("b:trim_white_spaces_loaded")
