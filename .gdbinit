@@ -1,6 +1,6 @@
 
 # Eval a ruby string
-define eval
+define rb_eval
   call(rb_p(rb_eval_string_protect($arg0,(int*)0)))
 end
 
