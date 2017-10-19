@@ -13,8 +13,10 @@ set mouse=a
 " Don't reset cursor to start of line when moving around
 set nostartofline
 
-" Share clipboard with the system
-set clipboard=unnamedplus
+" Share clipboard with the system, unless inside Tmux (doesn't work)
+if $TMUX == ''
+  set clipboard=unnamed
+endif
 
 " Show the status bar at the bottom
 set laststatus=1

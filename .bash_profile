@@ -4,5 +4,8 @@ alias gb='git branch'
 alias gl='git log --pretty=format:"%Cred%h%Creset %C(bold blue)<%an>%Creset - %s %C(bold blue)(%cr)%Creset" --abbrev-commit --date=short'
 alias gf='git fetch --prune'
 alias gr='git rebase origin/master'
+alias ge='git commit --allow-empty -m "Empty"'
+
+export LSCOLORS='Gxfxcxdxbxegedabagacad'
 
 source ~/.bash.local
